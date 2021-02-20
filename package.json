@@ -8,6 +8,7 @@
     "dev": "node src/server.js",
     "build": "sucrase ./src -d ./dist --transforms imports && node ./dist/server.js"
   },
+  "heroku-run-build-script": true,
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
