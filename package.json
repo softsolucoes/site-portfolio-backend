@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon src/server.js",
     "dev": "node src/server.js",
-    "build": "sucrase ./src -d ./dist --transforms imports"
+    "build": "sucrase ./src -d ./dist --transforms imports && node ./dist/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
